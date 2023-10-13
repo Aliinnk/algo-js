@@ -37,7 +37,6 @@ while (poke1.hp > 0 || poke2.hp > 0) {
     else {
         continue;
     }
-    if (isLucky() == 'attack') {
     attackPokemon(poke2);
     if (poke1.hp == 0) {
         let mort = poke1.nome;
@@ -46,7 +45,6 @@ while (poke1.hp > 0 || poke2.hp > 0) {
     else {
         continue;
     }
-}
 }
 
 
