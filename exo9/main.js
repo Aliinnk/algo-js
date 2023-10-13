@@ -37,8 +37,7 @@ while (poke1.hp > 0 || poke2.hp > 0) {
     else {
         continue;
     }
-}
-if (isLucky() == 'attack') {
+    if (isLucky() == 'attack') {
     attackPokemon(poke2);
     if (poke1.hp == 0) {
         let mort = poke1.nome;
@@ -48,7 +47,9 @@ if (isLucky() == 'attack') {
         continue;
     }
 }
+}
 
-console.log('${mort} à perdu');
+
+console.log(mort + ' à perdu');
 let poke1 = new Pokemon('moustache', 150, 200, 40, 90);
 let poke2 = new Pokemon('Ramses',130, 210, 60, 70 );
