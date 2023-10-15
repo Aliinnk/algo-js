@@ -118,7 +118,7 @@ while (Jason.pv > 0) {
         }
      }
 }
-if (Jason.pv == 0) {
+if (Jason.pv <= 0) {
     //si jason est mort, j'affiche le message suivant
     console.log("Les survivants ont gagané mais RIP à " + mort);
 }
