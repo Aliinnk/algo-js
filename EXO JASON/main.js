@@ -109,12 +109,21 @@ while (Jason.pv > 0) {
         }
      }
      if (verifier_mort(victime4.prenom) == 'False') {
-        attaque(victime1);
+        attaque(victime4);
         if (mort.length == 0) {
-         console.log(victime1.prenom + ' a esquivé et a infligé '+ dmg);
+         console.log(victime4.prenom + ' a esquivé et a infligé '+ dmg);
         }
         else {
-         console.log('Jason a tué ' + mort + ', ' + victime1.prenom + ' a esquivé et a infligé '+ dmg);
+         console.log('Jason a tué ' + mort + ', ' + victime4.prenom + ' a esquivé et a infligé '+ dmg);
+        }
+     }
+    if (verifier_mort(victime5.prenom) == 'False') {
+        attaque(victime5);
+        if (mort.length == 0) {
+         console.log(victime5.prenom + ' a esquivé et a infligé '+ dmg);
+        }
+        else {
+         console.log('Jason a tué ' + mort + ', ' + victime5.prenom + ' a esquivé et a infligé '+ dmg);
         }
      }
 }
